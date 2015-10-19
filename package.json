@@ -1,0 +1,22 @@
+{
+  "name": "raspberry-sensor-sense-hat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teuteuguy/raspberry-sensor-sense-hat.git"
+  },
+  "author": "teuteuguy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teuteuguy/raspberry-sensor-sense-hat/issues"
+  },
+  "homepage": "https://github.com/teuteuguy/raspberry-sensor-sense-hat#readme",
+  "dependencies": {
+    "python-shell": "^0.2.0"
+  }
+}
