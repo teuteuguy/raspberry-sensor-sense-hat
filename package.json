@@ -10,13 +10,22 @@
     "type": "git",
     "url": "git+https://github.com/teuteuguy/raspberry-sensor-sense-hat.git"
   },
-  "author": "teuteuguy",
+  "author": {
+    "name": "teuteuguy"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/teuteuguy/raspberry-sensor-sense-hat/issues"
   },
   "homepage": "https://github.com/teuteuguy/raspberry-sensor-sense-hat#readme",
   "dependencies": {
-    "python-shell": "^0.2.0"
-  }
+    "i2c-bus": "^1.0.0"
+  },
+  "gitHead": "20e74c114745c3f2e3a39def87c2c6101bac75fd",
+  "readme": "# raspberry-sensor-sense-hat\n",
+  "readmeFilename": "README.md",
+  "_id": "raspberry-sensor-sense-hat@1.0.0",
+  "_shasum": "70624d1f57f56e49b90515d86dddfbedefedc02b",
+  "_from": "git://github.com/teuteuguy/raspberry-sensor-sense-hat.git",
+  "_resolved": "git://github.com/teuteuguy/raspberry-sensor-sense-hat.git#20e74c114745c3f2e3a39def87c2c6101bac75fd"
 }

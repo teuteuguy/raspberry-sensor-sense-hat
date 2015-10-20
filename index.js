@@ -1,11 +1,14 @@
-var PythonShell = require('python-shell');
+var Humidity = require('./hts221');
+var Pressure = require('./lps25h');
 
-module.exports = {
+module.exports.get = function(cb) {
 
-  get: function(cb) {
-    PythonShell.run('./sense-hat.py', function(err, results) {
-      if (err) cb(err, null);
-      cb(err, JSON.parse(results[0]));
-    });
-  }
+  var humidity = Humidity.get();
+  var pressure = Pressure.get();
+
+  cb(null, {
+    humidity: humidity,
+    pressure: pressure
+  });
+
 };
