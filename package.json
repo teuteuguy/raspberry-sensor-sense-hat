@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/teuteuguy/raspberry-sensor-sense-hat#readme",
   "dependencies": {
-    "i2c-bus": "^1.0.0"
+    "i2c-bus": "^1.0.0",
+    "python-shell": "^0.2.0"
   },
   "gitHead": "20e74c114745c3f2e3a39def87c2c6101bac75fd",
   "readme": "# raspberry-sensor-sense-hat\n",
