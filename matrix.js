@@ -31,7 +31,7 @@ module.exports = {
 
   set_rotation: function(r, cb) {
     var options = {
-      args: [JSON.stringify(r)]
+      args: [r]
     };
     PythonShell.run('set_rotation.py', options, function(err, results) {
       if (err) throw new Error(err);
