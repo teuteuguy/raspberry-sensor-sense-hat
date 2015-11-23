@@ -17,4 +17,5 @@ module.exports.get = function(cb) {
 
 module.exports.set_pixels = Matrix.set_pixels;
 module.exports.show_message = Matrix.show_message;
+module.exports.set_rotation = Matrix.set_rotation;
 module.exports.generic = require('./sense-hat');
