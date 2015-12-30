@@ -14,6 +14,9 @@ module.exports = function() { // Last argument will be the callback.
 
   PythonShell.run('generic.py', {
     args: args
-  }, cb);
+  }, function(err, data) {
+    console.log('FUCK', err, data);
+    cb(err, data);
+  });
 
 };

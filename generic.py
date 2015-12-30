@@ -20,5 +20,6 @@ else:
   result = getattr(sense, sys.argv[1])(*sys.argv[2:])
 
 import json
-print json.dumps(result)
+# print json.dumps(result)
 # sense.show_message(sys.argv[1])
+print(json.dumps(result))
